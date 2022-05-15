@@ -1,5 +1,8 @@
-# cpp-advanced-training
+# C++ Advanced Training
 Labs for C++ advanced training
+
+<h1> Module 01: Object Oriented Programming concepts </h1>
+
 | Lab | Topic |
 | -- | -- |
 |**Lab 01**| Data encapsulation |
@@ -40,3 +43,22 @@ Labs for C++ advanced training
 |**Lab 36**| C-Style cast |
 |**Lab 37**| Use casting with static_cast to fix code |
 |**Lab 38**| Understand use of dynamic_cast |
+
+<h1> Module 02: Exceptions handling </h1>
+
+| Lab | Topic |
+| -- | -- |
+|**Lab 01**| Library function exits |
+|**Lab 02**| No possible values for integer error |
+|**Lab 03**| Error code is not captured in cascade |
+|**Lab 04**| Use errno to store error status |
+|**Lab 05**| Throw an exception |
+|**Lab 06**| Catch an exception |
+|**Lab 07**| Uncaught exceptions |
+|**Lab 08**| Catch all standard library exceptions |
+|**Lab 09**| Catch all exceptions |
+|**Lab 10**| Rethrow exceptions |
+|**Lab 11**| Unwinding the stack in action |
+|**Lab 12**| Multiple exceptions handling and hierarchy |
+|**Lab 13**| Throwing exception on Destructor |
+|**Lab 14**| Create a custom exception class |
