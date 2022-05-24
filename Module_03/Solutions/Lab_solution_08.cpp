@@ -16,13 +16,9 @@ void printContainer(const string comment, C const& container)
     cout << "}; \n";    
 }
 
-void fnUpperCase(string &str)
+void printSize(string &str)
 {
-    for(int i=0;i<str.length();i++){
-        if(str[i] >= 'a' && str[i] <= 'z'){ 
-            str[i] = (char)(str[i]-'a' + 'A'); 
-        }
-    }
+    cout << "size of "<< str << "=" << str.size()<<endl;
 }
 
 int main()
@@ -30,7 +26,7 @@ int main()
     cout << "Create vector vString" << endl;
 
     vector<string> vString {"World","Of","Hello","Programmers","Hello"};
-    printContainer("vector1",vString);
+    printContainer("vString",vString);
 
     cout << "1- Use algorithm find() to find the first occurrence of Hello" << endl;
     auto found = find(begin(vString), end(vString), "Hello");
@@ -44,9 +40,10 @@ int main()
     cout << "Hello is repeated "<< count_hello << " times" << endl;
 
     
-    cout << "3- Use algorithm for_each() to convert every string in the vector to uppercase" << endl;
-    for_each(vString.begin(), vString.end(), fnUpperCase);
-    printContainer("vector1",vString);
+    cout << "3- Use algorithm for_each() to print size of every string" << endl;
+    //for_each(vString.begin(), vString.end(), printSize);
+    for_each(vString.begin(), vString.end(), [](string s) -> int { return s.size(); });
+    printContainer("vString",vString);
 
     return 0;
 }
