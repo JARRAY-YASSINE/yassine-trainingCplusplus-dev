@@ -62,3 +62,22 @@ Labs for C++ advanced training
 |**Lab 12**| Multiple exceptions handling and hierarchy |
 |**Lab 13**| Throwing exception on Destructor |
 |**Lab 14**| Create a custom exception class |
+
+<h1> Module 03: Standard Template Library (STL) </h1>
+
+| Lab | Topic |
+| -- | -- |
+|**Lab 01**| string is a container |
+|**Lab 02**| From a static array to a vector |
+|**Lab 03**| Manipulate vector and deque |
+|**Lab 04**| Manipulate a map |
+|**Lab 05**| Manipulate a multimap |
+|**Lab 06**| Operations on vector |
+|**Lab 07**| Operations on maps |
+|**Lab 08**| Non modifying Sequence Algorithms |
+|**Lab 09**| Modifying Sequence Algorithms |
+|**Lab 10**| Sorting and Searching Algorithms |
+|**Lab 11**| Min and Max |
+|**Lab 12**| Manipulating sequences |
+|**Lab 13**| Manipulating iterators using operators |
+|**Lab 14**| More iterators operations |
