@@ -4,7 +4,7 @@
 using namespace std;
 
 
-void printMap(const map<string, int>& m)
+void printMap(map<string, int> const& m)
 {
     for (const auto& n : m) {
         cout << n.first << " = " << n.second << "; ";

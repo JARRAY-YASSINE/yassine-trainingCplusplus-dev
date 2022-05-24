@@ -4,7 +4,7 @@
 using namespace std;
 
 
-void printMultimap(const multimap<int, int>& m)
+void printMultimap(multimap<int, int> const& m)
 {
     for (const auto& n : m) {
         std::cout << n.first << " = " << n.second << "; ";

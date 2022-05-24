@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void printIntVector(vector<int>& v)
+void printIntVector(vector<int> const& v)
 {
     cout << "vector = { ";
     for(int n: v)
