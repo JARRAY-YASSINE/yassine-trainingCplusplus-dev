@@ -31,20 +31,22 @@ class Device
         bool m_isConnected = false;
 };
 
+
+void observe()
+{
+
+} 
+
 int main()
 {
     cout << "Begin of main()" << endl;
-    shared_ptr<Device> devicePtr;
-    devicePtr.reset(new Device("Device 1"));
-    cout << "Device Connection Status:" << devicePtr.get()->getConnStatus() << endl;
-
-    shared_ptr<Device> devicePtr2 = make_shared<Device>("Device 2");
-    shared_ptr<Device> devicePtr3 = devicePtr2;
-    cout << "Use count:" << devicePtr2.use_count() << endl;
-
-    devicePtr3.reset();
-    cout << "Use count:" << devicePtr2.use_count() << endl;
-
+	{
+    	shared_ptr<Device> devicePtr = make_shared<Device>("Device 1");
+		gDeviceObserver = devicePtr;
+		observe();
+	}
+	observe();
+    
     cout << "End of main()" << endl;
     return 0;
 }
