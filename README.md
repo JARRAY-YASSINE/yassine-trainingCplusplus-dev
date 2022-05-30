@@ -97,6 +97,8 @@ Labs for C++ advanced training
 |**Lab 09**| RAII Class |
 |**Lab 10**| Working with unique_ptr<> |
 |**Lab 11**| Working with shared_ptr<> and weak_ptr<> |
+|**Lab 12**| Solve Cyclic dependency problem using weak_ptr<> |
+|**Lab 13**| Use weak_ptr<> as an observer |
 
 <h1> Module 05: Miscellaneous features </h1>
 
