@@ -81,3 +81,25 @@ Labs for C++ advanced training
 |**Lab 12**| Manipulating sequences |
 |**Lab 13**| Manipulating iterators using operators |
 |**Lab 14**| More iterators operations |
+
+<h1> Module 04: Dynamic memory management </h1>
+
+| Lab | Topic |
+| -- | -- |
+|**Lab 01**| Using a Pointer to a Non Existing/Not Created Dynamic Variable |
+|**Lab 02**| Using a Pointer to Deleted Dynamic Variable |
+|**Lab 03**| Forgetting to Delete a Dynamic Variable |
+|**Lab 04**| Overwriting a Valid Pointer to a Dynamic Variable |
+|**Lab 05**| Deleting the Same Dynamic Variable again |
+|**Lab 06**| Deleting Less Memory than Created |
+|**Lab 07**| Deleting More Memory than Created |
+|**Lab 08**| Variables Lifetime |
+|**Lab 09**| RAII Class |
+|**Lab 10**| Working with unique_ptr<> |
+|**Lab 11**| Working with shared_ptr<> and weak_ptr<> |
+
+<h1> Module 05: Miscellaneous features </h1>
+
+| Lab | Topic |
+| -- | -- |
+|**Lab 01**| Working with Lambda expressions |
