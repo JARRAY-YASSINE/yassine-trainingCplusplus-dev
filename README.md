@@ -105,3 +105,9 @@ Labs for C++ advanced training
 |  | Lab | Solution | Topic |
 | -- | -- | -- | -- |
 |**Lab 01**| [[lab]](https://github.com/mbayarassou/cpp-advanced-training/blob/main/Module_05/Labs/Lab_01.cpp) | [[solution]](https://github.com/mbayarassou/cpp-advanced-training/blob/main/Module_05/Solutions/Lab_solution_01.cpp) |  Working with Lambda expressions |
+
+========================================================================
+>>>>> BIG thanks to Mehdi Bayarassou (https://github.com/mbayarassou)
+>>>>>Lets re-start all module
+>>>>>yassine
+>>>>>05-06-2022
